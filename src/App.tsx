@@ -11,10 +11,10 @@ import AboutFeaturesTeam from './pages/About';
 import ServicesAndTestimonials from './pages/Services';
 import BlogSection from './pages/Blog';
 import Contact from './pages/Contact';
-import FAQSection from './pages/FAQS';
+
 import Team from './pages/Team';
 import Features from './pages/Features';
-import NotFound from './pages/404error';
+
 import Kraetims from './pages/Kra-etims';
 import SoftwareDevelopment from './pages/SoftDev';
 import PrivacyPolicy from './pages/privacypolicy';
@@ -52,10 +52,9 @@ const App: React.FC = () => {
         <Route path="/services" element={<ServicesAndTestimonials />} />
         <Route path="/blog" element={<BlogSection />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/faq" element={<FAQSection/>} />
+      
         <Route path="/team" element={<Team/>} />
-        <Route path="/feature" element={<Features/>} />
-        <Route path="/404" element={<NotFound/>} />
+      
         <Route path="/kra-etims" element={<Kraetims/>} />
         <Route path="/soft-dev" element={<SoftwareDevelopment/>} />
         <Route path="/privacy" element={<PrivacyPolicy/>} />
