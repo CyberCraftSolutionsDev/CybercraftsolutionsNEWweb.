@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 
 const OfferSection: React.FC = () => {
   const [activeTab, setActiveTab] = useState<string>('collapseOne');
@@ -41,6 +42,10 @@ const OfferSection: React.FC = () => {
   const activeContent = descriptions.find((desc) => desc.id === activeTab);
 
   return (
+    <div>   <Helmet>
+                  <title>Offer - Cyber+Craft+Solutions</title>
+                  <meta name="description" content="Get in touch with Cyber+Craft+Solutions for technology solutions and consulting services." />
+                </Helmet>
     <div className="container-fluid offer-section py-5">
       <div className="container py-5">
         <div className="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style={{ maxWidth: '800px' }}>
@@ -93,6 +98,7 @@ const OfferSection: React.FC = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

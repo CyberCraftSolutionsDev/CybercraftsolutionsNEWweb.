@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 
 const Team: React.FC = () => {
   // Team member data
@@ -52,6 +53,10 @@ const Team: React.FC = () => {
   return (
     <>
       {/* Navbar & Hero Start */}
+       <Helmet>
+          <title>TEAM - Cyber+Craft+Solutions</title>
+          <meta name="description" content="Get in touch with Cyber+Craft+Solutions for technology solutions and consulting services." />
+        </Helmet>
       <div className="container-fluid position-relative p-0">
         {/* Header Start */}
         <div className="container-fluid bg-breadcrumb">

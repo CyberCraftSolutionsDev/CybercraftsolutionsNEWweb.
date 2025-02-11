@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import TestimonialSection from '../components/Testimonials';
 import HeaderCarousel from '../components/Headercarousel';
 import ServicesAndTestimonials from './Services';
+import { Helmet } from "react-helmet";
 
 interface ServiceProps {
   image: string;
@@ -42,6 +43,10 @@ const Home: React.FC = () => {
   
     return (
         <>
+        <Helmet>
+                            <title>Home - Cyber+Craft+Solutions</title>
+                            <meta name="description" content="Get in touch with Cyber+Craft+Solutions for technology solutions and consulting services." />
+                          </Helmet>
             {/* Carousel Start */}
            <div>
            <HeaderCarousel />

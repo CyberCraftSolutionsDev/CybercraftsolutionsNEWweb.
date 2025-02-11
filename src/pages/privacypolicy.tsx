@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 
 const PrivacyPolicy: React.FC = () => {
   const containerStyle: React.CSSProperties = {
@@ -37,6 +38,10 @@ const PrivacyPolicy: React.FC = () => {
 
   return (
     <div>
+        <Helmet>
+                    <title>APPLY - Cyber+Craft+Solutions</title>
+                    <meta name="description" content="Get in touch with Cyber+Craft+Solutions for technology solutions and consulting services." />
+                  </Helmet>
           <div className="container-fluid bg-breadcrumb">
           <div className="container text-center py-5" style={{ maxWidth: '900px' }}>
             <h4 className="text-white display-4 mb-4">Privacy Policy</h4>

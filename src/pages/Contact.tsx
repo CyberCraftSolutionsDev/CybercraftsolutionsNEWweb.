@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { Helmet } from "react-helmet";
 
 const Contact: React.FC = () => {
   const formRef = useRef<HTMLFormElement | null>(null);
@@ -41,7 +42,11 @@ const Contact: React.FC = () => {
   };
 
   return (
-    
+    <div>
+       <Helmet>
+                    <title>Contact Us - Cyber+Craft+Solutions</title>
+                    <meta name="description" content="Get in touch with Cyber+Craft+Solutions for technology solutions and consulting services." />
+                  </Helmet>
     <div style={{ padding: '5rem 0', backgroundColor: '#fff' }}>
       <div style={{ padding: '5rem 0' }}>
         <div style={{ display: 'flex', gap: '3rem', flexWrap: 'wrap' }}>
@@ -159,6 +164,7 @@ const Contact: React.FC = () => {
 
         </div>
       </div>
+    </div>
     </div>
   );
 };

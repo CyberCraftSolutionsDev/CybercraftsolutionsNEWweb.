@@ -57,9 +57,7 @@ We can’t do it alone We have an ambitious road ahead, We're thrilled to extend
               <h4 className="text-white mb-4">Quick Links</h4>
               <Link to="/about"><i className="fas fa-angle-right me-2"></i> About Us</Link>
               <Link to="#"><i className="fas fa-angle-right me-2"></i> Feature</Link>
-              <Link to="#"><i className="fas fa-angle-right me-2"></i> Attractions</Link>
-              <Link to="#"><i className="fas fa-angle-right me-2"></i> Tickets</Link>
-              <Link to="#"><i className="fas fa-angle-right me-2"></i> Blog</Link>
+             
               <Link to="/contact"><i className="fas fa-angle-right me-2"></i> Contact Us</Link>
             </div>
           </div>
@@ -70,10 +68,10 @@ We can’t do it alone We have an ambitious road ahead, We're thrilled to extend
               <h4 className="text-white mb-4">Support</h4>
               <Link to="/privacy"><i className="fas fa-angle-right me-2"></i> Privacy Policy</Link>
               <Link to="#"><i className="fas fa-angle-right me-2"></i> Terms & Conditions</Link>
-              <Link to="#"><i className="fas fa-angle-right me-2"></i> Disclaimer</Link>
+             
               <Link to="#"><i className="fas fa-angle-right me-2"></i> Support</Link>
-              <Link to="#"><i className="fas fa-angle-right me-2"></i> FAQ</Link>
-              <Link to="#"><i className="fas fa-angle-right me-2"></i> Help</Link>
+             
+           
             </div>
           </div>
 

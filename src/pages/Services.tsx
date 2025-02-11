@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 // TypeScript Interfaces
 interface ServiceProps {
@@ -85,6 +86,10 @@ const ServicesAndTestimonials: React.FC = () => {
   ];
 
   return (
+    <div>  <Helmet>
+    <title>Services - Cyber+Craft+Solutions</title>
+    <meta name="description" content="Get in touch with Cyber+Craft+Solutions for technology solutions and consulting services." />
+  </Helmet>
     <div className="container-fluid py-5">
       <div className="container">
         <div className="text-center mb-5">
@@ -163,6 +168,7 @@ I cannot express enough gratitude for the exceptional support provided by Cyber 
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
