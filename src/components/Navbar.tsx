@@ -17,10 +17,10 @@ const Navbar: React.FC = () => {
   }}
 >
   <img
-    src="img/logo-2.png"
+    src="img/bluelogo-1.png"
     alt="Brand Logo"
     style={{
-      height: '180px', // Increased default height
+      height: '300px', // Increased default height
       width: 'auto',   // Ensures aspect ratio is maintained
       transition: 'transform 0.3s ease, height 0.3s ease', // Smooth height adjustment
     }}
